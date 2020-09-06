@@ -1,12 +1,10 @@
 import React from 'react';
-
-//css
-import "../css/landing.css";
+import Header from '../hoc/header';
 
 export default function Landing(props) {
     return (
         <div id="landing-container">
-            
+            <Header/>
         </div>
     );
 }
