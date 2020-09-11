@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../hoc/navbar';
 import Login from '../hoc/login';
+import Signup from '../hoc/signup';
 
 export default function Landing(props) {
   return (
@@ -13,7 +14,7 @@ export default function Landing(props) {
             <p className=" text-lg font-medium text-white py-5">Learn and grow with us by practicing coding problems and enhancing your skills.</p>
           </div>
           <div className="ml-8">
-            <button className="bg-black hover:bg-white hover:text-black text-white font-bold py-4 px-4 rounded-md">SIGN UP AND CODE</button>
+            <button className="bg-black hover:bg-white hover:text-black transition-colors duration-500 ease-out text-white font-bold py-4 px-4 rounded-md">SIGN UP AND CODE</button>
           </div>
         </div>
         <div className="flex flex-col items-center md:pt-32 pt-20 pb-40">
